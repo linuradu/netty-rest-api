@@ -2,17 +2,17 @@
 
 ## Build
 
-1. Run `mvn clean install` for a dev building the sources.
-2. execute DB statement: dbInit.sql
-3. After a successful build execute: `com.rl.netty.server.NettyServer`.
+1. Run `mvn clean install` for building the sources.
+2. Execute DB statement: dbInit.sql
+3. After a successful build run: `com.rl.netty.server.NettyServer`.
 
 ## Testing
 
-In order to test the running netty REST API you have the following urls as examples.
-    `localhost:8080/users`              - PUT method
-    `localhost:8080/users/1`            - GET, POST, DELETE methods
-    `localhost:8080/users`              - GEt method
-    `localhost:8080/users?name=George`  - GEt method
+In order to test the running Netty REST API, you have the following urls as examples:
+   -  `localhost:8080/users`							PUT method
+   - `localhost:8080/users/1`           	 GET, POST, DELETE methods
+   -  `localhost:8080/users`              GET method
+   - `localhost:8080/users?name=George`  GET method
 
 ## Application requirement
 
