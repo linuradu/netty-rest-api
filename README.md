@@ -22,7 +22,7 @@ In order to test the running netty REST API you have the following urls as examp
 
 3. RESTful route to manipulate users: add, delete, update, read all
 
-Accept sort and filter params for the /users route
+    Accept sort and filter params for the /users route
 
 4. All communication will be done using Json
 5. Create at least 3 users by creating an sql script that does that
