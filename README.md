@@ -8,10 +8,6 @@
 ## Server
 1. After a successful build run: `com.rl.netty.server.NettyServer`.
 
-## Client
-1. Use the client `com.rl.netty.client.DBUpdateClient` in order to update the users.
- This client is getting all users using the REST API and after is updating the users names asynchronously.
-
 ## Testing
 
 In order to test the running Netty REST API, you have the following urls as examples:
@@ -19,6 +15,11 @@ In order to test the running Netty REST API, you have the following urls as exam
    - `localhost:8080/users/1`           	 GET, POST, DELETE methods
    -  `localhost:8080/users`              GET method
    - `localhost:8080/users?name=George`  GET method
+
+## Client
+1. Use the client `com.rl.netty.client.DBUpdateClient` in order to update the users.
+ This client is getting all users using the REST API and after is updating the users names asynchronously.
+
 
 ## Application requirement
 
