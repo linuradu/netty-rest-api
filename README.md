@@ -8,7 +8,7 @@
 ## Server
 1. After a successful build run: `com.rl.netty.server.NettyServer`.
 
-##Client
+## Client
 1. Use the client `com.rl.netty.client.DBUpdateClient` in order to update the users.
  This client is getting all users using the REST API and after is updating the users names asynchronously.
 
